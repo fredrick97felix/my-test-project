@@ -1,0 +1,125 @@
+html { height: 100% }
+::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+body {  
+    background-color: #e9fafe;
+ }
+ small{
+   display: inline-block;
+   margin-left: 5px;
+   color: red;
+   visibility: hidden;
+ }
+.login {
+  background:#fff;
+  border: 1px solid #42464b;
+  border-radius: 6px;
+  
+  margin: 20px auto 0;
+  width: 40%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.login h1 {
+  background-image: linear-gradient(top, #f1f3f3, #d4dae0);
+  
+  border-radius: 6px 6px 0 0;
+  border: 10px;
+  box-sizing: border-box;
+  color: #727678;
+  display: block;
+  height: 50px;
+  font: 600 1px/1 'Open Sans', sans-serif;
+  padding-top: 9%;
+  margin: 0;
+  text-align: center;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.2), 0 1px 0 #fff;
+  font-size:30px;
+  font-family:  sans-serif;
+  font-style: none;
+
+ 
+}
+.form-one{
+  margin-top: 10%;
+  margin-left: 20%;
+  margin-bottom: 25px;
+}
+.input-group{
+  margin-bottom: 5px;
+}
+input[type="password"], input[type="text"] {
+  border: 1px solid #a1a3a3;
+  border-radius: 4px;
+  box-shadow: 0 1px #fff;
+  box-sizing: border-box;
+  color: #696969;
+  height: 45px;
+  
+  padding-left: 37px;
+  transition: box-shadow 0.3s;
+  width: 320px;
+  position:sticky;
+}
+input[type="password"]:focus, input[type="text"]:focus {
+  box-shadow: 0 0 4px 1px rgba(55, 166, 155, 0.3);
+  outline: 0;
+}
+.show-password {
+  display: block;
+  height: 16px;
+  margin: 26px 0 0 28px;
+  width: 87px;
+}
+
+.sign {
+  color: #7f7f7f;
+  display:block;
+  float: right;
+  font: 12px/1 sans-serif;
+  left: -19px;
+  position:absolute;
+  text-decoration: none;
+  top: 5px;
+  transition: color .4s;
+  margin-left: 50px;
+}
+.sign:hover { 
+  color: #3b3b3b ;
+  text-decoration: cadetblue underline;
+  font-size: larger;
+}
+
+
+
+input[type="submit"]{
+  border: 1px solid  #a1a3a3 ;
+  border-radius: 4px;
+  box-shadow: 0 1px #fff;
+  box-sizing: border-box;
+  color: #696969;
+  height: 45px;
+  margin-top: 10px;
+  padding-left: 37px;
+  transition: box-shadow 0.3s;
+  width: 320px;
+
+
+}
+input[type="submit"]:hover {
+  
+  background-color: #4272d7;
+  border-radius: 4px;
+  box-shadow: 0 1px #fff;
+  box-sizing: border-box;
+  color:#fff;
+  font-size: 20px;
+  height: 45px;
+  margin-top: 10px;
+  padding-left: 37px;
+  transition: box-shadow 0.3s;
+  width: 320px;
+
+
+}
+
+
