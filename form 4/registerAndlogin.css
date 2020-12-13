@@ -1,0 +1,42 @@
+body{
+    background-color: d2dee4;
+}
+h1{
+
+    color:black;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.contaner{
+    margin:auto;
+    width: 60%;
+    height: 70%;
+    padding:0px;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+img{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    float: left;
+    border-radius: 5px 0px 0px 5px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.inputs{
+    display: block;
+    margin: 10px;
+    padding: 2px;
+    
+}
+input{
+    margin-left: 5px;
+}
+
+small{
+    display: block;
+}
